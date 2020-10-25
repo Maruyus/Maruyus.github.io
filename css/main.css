@@ -35,7 +35,10 @@ background-size: 1800% 1800%;
     100%{background-position:0% 82%} 
 }
 
+body {
+  font-family: 'Pacifico', cursive;
+}
+
 h1 {
   font-size: 150px;
-  font-family: 'Pacifico', cursive;
 }
