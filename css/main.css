@@ -41,10 +41,10 @@ body {
 
 h1 {
   font-size: 150px;
-  transition: font-size 2s, transform 2s;
+  transition: font-size 3s, transform 3s;
 }
 
 h1:hover {
-  font-size: 350px;
-  transform: rotate(180deg);
+  font-size: 200px;
+  transform: rotate(720deg);
 }
