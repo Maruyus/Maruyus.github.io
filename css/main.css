@@ -35,10 +35,6 @@ background-size: 1800% 1800%;
     100%{background-position:0% 82%} 
 }
 
-body {
-  font-family: 'Pacifico', cursive;
-}
-
 h1 {
   font-size: 150px;
   transition: font-size 3s, transform 3s;
@@ -47,4 +43,21 @@ h1 {
 h1:hover {
   font-size: 200px;
   transform: rotate(720deg);
+}
+
+body {
+    padding:0;
+    margin:0;
+    overflow:hidden;
+	  height: 600px;
+    font-family: 'Pacifico', cursive;
+}
+canvas {
+    padding:0;
+    margin:0;
+}
+div.btnbg {
+    position:fixed;
+    left:0;
+    top:0;
 }
